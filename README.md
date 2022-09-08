@@ -1,8 +1,5 @@
 # Reminder
-Projeto de cadastro de lembretes
 
-
-# Valorant-React
 <p align = "center">
     
 </p>
