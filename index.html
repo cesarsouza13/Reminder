@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orçamento</title>
+    <link rel = "stylesheet" href = "./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+   
+</head>
+<body>
+    <script  src="./src/reminder/index.js" defer></script>
+    <script  src="./src/index.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" defer></script> 
+    <header>
+      
+    </header>
+    <section class="reminder">
+        <form onsubmit="reminder.SendReminder()">
+        <h1 class="container__tittle">Novo Lembrete</h1>
+        <div class="container__name">
+            <label class="container__label" >Nome</label>
+            <input type="text" id="name" placeholder="Nome do lembrete" class="container__input" required>
+        </div>
+        <div class="container__date">
+            <label  class="container__label" >Data</label>
+            <input type="text" id="date" placeholder="Data do lembrete (no formato dd/mm/yy)" class="container__input" required>
+        </div>
+        
+
+        <button class="container__button" id="send" >Criar</button>
+    
+    </form>
+    </section>
+
+    <section class="list">
+        <h1>Lista de lembretes</h1>
+        <div class="container__list" id="body_list">
+
+        </div>
+    </section>
+
+</body>
+</html>
