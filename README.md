@@ -31,7 +31,7 @@ npm init
 Em seguida,
 
 ```
-npm i express, axios, cors, nodemon
+npm i express axios cors nodemon
 ```
 
 Após a instalacao das depedencias, você deve modificar o arquivo package.json com o seguinte codigo no comapo scripts
