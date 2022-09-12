@@ -14,7 +14,7 @@ Projeto responsável por cadastrar lembretes futuros
 
 As técnicas e tecnologias utilizadas pra isso são:
 
-- `Express`: depedencia para a criação de rots RESTFUL
+- `Express`: depedencia para a criação de rotas RESTFUL
 - `Axios`: depedencia responsável para realizar o consumo de rotas no front end
 - `flex-box`: tecnica para a criação de containers reponsivos e adequados ao projeto
 
@@ -34,7 +34,7 @@ Em seguida,
 npm i express axios cors nodemon
 ```
 
-Após a instalacao das depedencias, você deve modificar o arquivo package.json com o seguinte codigo no comapo scripts
+Após a instalacao das depedencias, você deve modificar o arquivo package.json com o seguinte codigo no compo scripts
 ```
 "dev": "nodemon ./src/index.js"
 ```
